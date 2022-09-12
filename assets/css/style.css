@@ -111,14 +111,16 @@ html,body{height: 100%;}
         2. Top-area
 --------------------------------------*/
 nav.navbar.bootsnav {
-    background-color: transparent;
+    background-color: black;
     border-bottom: transparent;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+.wrap-sticky nav.navbar.bootsnav.sticked {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: #616060;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 500;
     padding: 45px 0px;
@@ -131,7 +133,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #616060;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
@@ -174,7 +176,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     top:5px;
 }
 .attr-nav > ul > li > a {
-    color: #616060;
+    color: #ffffff;
     padding: 44px 15px;
     font-size: 18px;
     font-weight: 500;
